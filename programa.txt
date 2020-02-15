@@ -1,0 +1,16 @@
+Tenemos principalmente dos tipos de variantes:
+
+Sistemas centralizados: En estos sistemas hay un servidor que mantiene el repositorio y en el que
+cada programador mantiene en local únicamente aquellos archivos con los que está trabajando en un
+momento dado. Yo necesito conectarme con el servidor donde está el código para poder trabajar y
+enviar cambios en el software que se está programando. Ese sistema centralizado es el único lugar
+donde está todo el código del proyecto de manera completa. Subversion o CVS son sistemas de
+control de versiones centralizados.
+
+Sistemas distribuidos: En este tipo de sistemas cada uno de los integrantes del equipo mantiene
+una copia local del repositorio completo. Al disponer de un repositorio local, puedo hacer commit
+(enviar cambios al sistema de control de versiones) en local, sin necesidad de estar conectado a
+Internet o cualquier otra red. En cualquier momento y en cualquier sitio donde esté puedo hacer un
+commit. Es cierto que es local de momento, luego podrás compartirlo con otras personas, pero el
+hecho de tener un repositorio completo me facilita ser autónomo y poder trabajar en cualquier
+situación. Git es un sistema de control de versiones distribuido.
